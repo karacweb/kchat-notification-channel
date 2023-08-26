@@ -2,6 +2,8 @@
 
 This package makes it easy to send notifications using [kChat](https://www.infomaniak.com/en/kchat) with Laravel 5.5+, 6.x, 7.x, 8.x, 9.x, 10.x
 
+![PHPUnit tests](https://github.com/karacweb/kchat-notification-channel/actions/workflows/tests.yml/badge.svg)
+
 This package leverages Infomaniak's public API to send notification to [kChat](https://www.infomaniak.com/en/kchat) channels with Laravel 5.5+, 6.x, 7.x, 8.x, 9.x and 10.x
 
 ```php
