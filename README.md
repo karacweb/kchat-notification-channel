@@ -34,7 +34,7 @@ return KChatMessage::create()
 You can install the package via composer:
 
 ``` bash
-composer require laravel-notification-channels/kchat
+composer require karacweb/kchat-notification-channel
 ```
 
 Next, if you're using Laravel _without_ auto-discovery, add the service provider to `config/app.php`:
