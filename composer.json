@@ -1,5 +1,5 @@
 {
-    "name": "karacweb/kchat-notification.channel",
+    "name": "karacweb/kchat-notification-channel",
     "description": "A Laravel Notification Channel for Infomaniak's kChat",
     "homepage": "https://github.com/karacweb/kchat-notification-channel",
     "license": "MIT",
