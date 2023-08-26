@@ -25,8 +25,10 @@ jobs:
           tools: composer:v2
           coverage: none
 
-      - name: Install dependencies
-        run: composer update --prefer-source --no-interaction --no-progress
+      - name: Install PHP dependencies
+        uses: "ramsey/composer-install@v2"
+        with:
+          dependency-versions: "locked"
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose
